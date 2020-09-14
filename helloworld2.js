@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Ansible is cool!"
-   response.end('Good Day to you!\n')
+   response.end('Good Day to you!\nAnsible is cool!\n')
 }).listen(3333)
 
 // Console will print the message
